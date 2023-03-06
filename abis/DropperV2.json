@@ -514,6 +514,19 @@
     "inputs": [
       {
         "internalType": "address",
+        "name": "_vip",
+        "type": "address"
+      }
+    ],
+    "name": "setVIP",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
         "name": "newOwner",
         "type": "address"
       }
